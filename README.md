@@ -6,3 +6,5 @@ Instructions:
 2) Provide your translation in the required language.Example:
 Say you want to provide translation to Spanish, you should make a __values-es__ directory and put translations to the __strings.xml__ file under it.
 3) Make a pull request.
+
+**_Proper credits will be given to all translators in the app_**
