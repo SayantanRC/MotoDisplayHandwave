@@ -1,0 +1,164 @@
+<resources>
+
+    <!--
+
+    version numbers changes to be done in:
+    App name -> version
+    Changelog
+    About -> mdh_version_label
+    MainActivity (java) -> showChangelog()
+
+    -->
+
+    <!--App name-->
+    <string name="app_name">MotoDisplay Handwave</string>
+    <string name="version">Version 3.1.1</string>
+
+    <!--Navigation drawer-->
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="changelog">Changelog</string>
+    <string name="device_info">Device info</string>
+    <string name="other_apps">Other apps</string>
+    <string name="rate">Rate this app</string>
+
+    <!--Android Nougat app shortcut-->
+    <string name="disable_everything_label">Disable everything</string>
+    <string name="everything_disabled_confirmation">All features and services of the app have been disabled.</string>
+
+    <!--Changelog-->
+    <string name="version_3.1.1">Version 3.1.1</string>
+    <string name="version_3.1.1_content">
+        • Small change to show device admin. permission is required when opening app for the first time.\n
+        • \"strings.xml\" file is available on Github for anyone wishing to translate this app. Link is given in the app page in Play Store.\n
+        • Updated \"Other apps\" list.
+    </string>
+    <string name="version_3.1">Version 3.1</string>
+    <string name="version_3.1_content">
+        • Small change to show device admin. permission is required for screen lock under "Wave-n-hold for screen off".\n
+        • This app will now not work on devices without a proximity sensor.\n
+        • Music Control Notification is now entirely a different service to avoid potential bugs.\n
+        • Widget to turn off screen.\n
+    </string>
+    <string name="version_3.0">Version 3.0</string>
+    <string name="version_3.0_content">
+        • Added much requested feature of checking Landscape mode in "Wave-n-hold for screen off"\n
+        • Compatibility mode for ineligible devices\n
+        • Changelog now shows history of all versions\n
+        • Icon change for "Music volume control notification"\n
+        • Added \'Other apps\' section and option to rate the app.\n
+        • UI revamp. Left sliding menu added. Circular app icon.\n
+        • Android Nougat compatible. App shortcut to disable all features.\n
+    </string>
+    <string name="version_2.0">Version 2.0</string>
+    <string name="version_2.0_content">
+        • Added changelog [ what you are seeing now ;) ]\n
+        • Added a whole new "APP NOT WORKING?" section under Preferences\n
+        • Fixed a bug in Music Volume Control notification\n
+    </string>
+
+    <!--MainActivity-->
+    <string name="in_app_desc_md">When screen is off, simply wave over the proximity sensor to bring up MotoDisplay</string>
+    <string name="in_app_desc_ls">When screen is off, simply wave over the proximity sensor to bring up lock screen</string>
+    <string name="drawer_invoke">Tap the icon for more options</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="no_proximity_sensor">This device doesn\'t have a proximity sensor</string>
+    <string name="no_proximity_sensor_explanation">This app works by reading values from proximity sensor. This device doesn\'t have this sensor. Hence this app will not work.</string>
+    <string name="not_an_official_motorola_app">This is not an official Motorola software</string>
+    <string name="not_an_official_motorola_app_explanation">This application is not made by Motorola. Using this application may cause excess drain of battery.\n\nDevice Administrator permission may be required.</string>
+
+    <!--Preferences-->
+    <string name="start_at_boot">Start at boot</string>
+    <string name="label_extras">EXTRAS</string>
+    <string name="music_vol_notif">Music Volume\nControl notification</string>
+    <string name="app_not_working">APP NOT WORKING?\n(only for devices with moto display)</string>
+    <string name="set_sensitivity">Set sensitivity. Increase if waving over the screen does not activate Moto Display.</string>
+    <string name="force_notification">Force notification.\nNot recommended. Gives an odd option on Moto Display. Use only if setting maximum sensitivity doesn\'t work.</string>
+    <string name="reset_app_not_working">Reset "APP NOT WORKING"</string>
+    <string name="music_volume_notif_md">A new notification with music volume controls will appear in Moto Display when screen is off</string>
+    <string name="music_volume_notif_ls">A new notification with music volume controls will appear in lock screen</string>
+    <string name="vol_up">Volume up</string>
+    <string name="vol_dn">Volume down</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="disable_in_landscape">Disable in landscape mode</string>
+    <string name="show_me_how">SHOW ME HOW</string>
+
+    <!--RequestDeviceAdmin-->
+    <string name="smart_unlock_not_work">Device admin. permission required.\nSmart unlock won\'t work!</string>
+    <string name="smart_unlock_not_work_explanation">Device administrator permission is required to turn off the screen. Please allow that permission. This is a one time permission.\n\n
+        Due to Android limitations, if you enable this option then Smart Unlock features (INCLUDING FINGERPRINT sensor) will not work.</string>
+    <string name="device_admin_explanation">MotoDisplay Handwave is requesting this permission to turn off the screen. To uninstall the app, remove Device administrator permission.</string>
+
+    <!--DeviceAdminClass-->
+    <string name="turned_off">MotoDisplay Handwave won\'t turn off the screen</string>
+
+    <!--DeviceDetails-->
+    <string name="enabled">Enabled</string>
+    <string name="disbled">Disabled</string>
+    <string name="label_device">DEVICE</string>
+    <string name="model">Model:</string>
+    <string name="manufacturer">Manufacturer:</string>
+    <string name="moto_display_supported">Moto Display: Supported</string>
+    <string name="moto_display_unsupported">Moto Display: Unsupported</string>
+    <string name="label_hardware">HARDWARE</string>
+    <string name="proximity">Proximity: </string>
+    <string name="power">\nPower used since last boot:\n</string>
+    <string name="label_inapp">IN-APP</string>
+    <string name="service_state_running">Service state: RUNNING</string>
+    <string name="service_state_not_running">Service state: NOT RUNNING</string>
+    <string name="music_vol_notif_enabled">Music vol. notification: Enabled</string>
+    <string name="music_vol_notif_disabled">Music vol. notification: Disabled</string>
+    <string name="wave_n_hold_for_screen_off_enabled">Wave-n-hold for screen off: Enabled</string>
+    <string name="wave_n_hold_for_screen_off_disabled">Wave-n-hold for screen off: Disabled</string>
+
+    <!--WaveAndHoldTutorial-->
+    <string name="wave_n_hold_for_screen_off">Wave-n-hold for screen off</string>
+    <string name="line_1">Wave over the proximity sensor</string>
+    <string name="line_2">Bring your hand back on it</string>
+    <string name="line_3">Keep your hand placed the proximity sensor till the screen turns off</string>
+    <string name="line_4">The gesture should be performed in quick succession</string>
+    <string name="line_5">A continuous vibration will confirm the action</string>
+
+    <!--Miscellaneous-->
+    <string name="OK">@android:string/ok</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="CANCEL">@android:string/cancel</string>
+    <string name="sure">Sure</string>
+    <string name="later">Later</string>
+    <string name="never_show">Never show</string>
+    <string name="rate_dialog_title">Your opinion is important</string>
+    <string name="rate_dialog_message">If this app has helped you, please consider giving a rating and/or a review.</string>
+    <string name="widget_activated">Widget activated!</string>
+    <string name="wave_n_hold_activated">Wave-n-hold activated!</string>
+
+    <!--Compatibility mode messages-->
+    <string name="compatibility_mode_label">Compatibility mode ON</string>
+
+    <string name="not_an_eligible_device">Not an eligible device! Compatibility mode ON</string>
+    <string name="ineligible_device_explanation">This application relies on an inbuilt feature - Moto Display - only available in select models of Motorola devices.\n\n
+
+        In compatibility mode, lock screen will be activated with wave gesture.\n
+        A new app is being worked upon for all devices with more exciting features! Once that is published, Compatibility Mode in this app will be deprecated.
+    </string>
+
+    <string name="compatibility_mode_description">
+        Your device does not have a feature known as Moto Display provided by Motorola in some select models. This app is activates Moto Display with a hand wave gesture over the screen.\n\n
+
+        As your device doesn\'t have Moto Display, this app will activate lock screen instead.\n\n
+
+        A new app is being worked upon for all devices with more exciting features! Once that is published, Compatibility Mode in this app will be deprecated.
+    </string>
+
+    <!--About-->
+    <string name="made_with_android_studio">Made with Android Studio</string>
+    <string name="mdh_version_label">MotoDisplay handwave:\nVersion 3.1.1</string>
+    <string name="mdh_disclaimer">Moto Display is the sole property of Motorola</string>
+
+    <!--Other apps-->
+    <string name="instamean">Systemwide online dictionary</string>
+    <string name="pickRingStop">Pick up your phone to stop ringing</string>
+    <string name="opcode8085">Convert 8085 programs to hex code</string>
+    <string name="more_coming_soon">More coming soon...</string>
+
+</resources>
