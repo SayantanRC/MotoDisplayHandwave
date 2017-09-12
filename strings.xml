@@ -1,0 +1,154 @@
+<resources>
+
+  <!-- App name -->
+  <string name="app_name">MotoDisplay Handwave</string>
+  <string name="version">Versione 3.1.1</string>
+
+  <!-- Navigation drawer -->
+  <string name="preferences">Preferenze</string>
+  <string name="about">Info</string>
+  <string name="changelog">Elenco modifiche</string>
+  <string name="device_info">Informazioni sul dispositivo</string>
+  <string name="other_apps">Altre app</string>
+  <string name="rate">Valuta questa app</string>
+
+  <!-- Android Nougat app shortcut -->
+  <string name="disable_everything_label">Disattiva tutto</string>
+  <string name="everything_disabled_confirmation">Tutte le funzionalità e i servizi dell\'app sono stati disattivati.</string>
+
+  <!-- Changelog -->
+  <string name="version_3.1.1">Versione 3.1.1</string>
+  <string name="version_3.1.1_content">
+• Piccola modifica per mostrare Amministratore dispositivo, è necessaria l\'autorizzazione quando apri l\'applicazione per la prima volta.\n
+• Il file \"strings.xml\" è disponibile su Github per chi desidera tradurre questa applicazione. Il collegamento è riportato nella pagina dell\'app del Play Store.\n
+• Aggiornato l\'elenco \"Altre app\".
+  </string>
+  <string name="version_3.1">Versione 3.1</string>
+  <string name="version_3.1_content">
+• Piccola modifica per mostrare le impostazioni Amministra dispositivo, è necessaria l\'autorizzazione al blocco dello schermo per \"Scorri-e-ferma per spegnere schermo\".\n
+• Questa app ora non funzionerà su dispositivi senza sensore di prossimità.\n
+• La Notifica per il controllo volume della musica ora è un servizio separato per evitare potenziali bug.\n
+• Widget per spegnere lo schermo.
+  </string>
+  <string name="version_3.0">Versione 3.0</string>
+  <string name="version_3.0_content">
+• Aggiunto funzionalità molto richiesta di controllo modalità Orizzontale in \"Scorri-e-ferma per spegnere schermo\"\n
+• Modalità compatibile per dispositivi non supportati\n
+• L\'elenco modifiche ora mostra tutte le versioni\n
+• Modificato l\'icona \"Notifica per il controllo volume della musica\"\n
+• Aggiunto sezione \'Altre app\' e la possibilità di votare l\'app.\n
+• Rinnovato l\'interfaccia. Aggiunto menu a scorrimento sinistro. Icona dell\'app circolare.\n
+• Android Nougat compatibile. Scorciatoia per disabilitare tutte le funzioni.
+  </string>
+  <string name="version_2.0">Versione 2.0</string>
+  <string name="version_2.0_content">
+• Aggiunto l\'elenco modifiche [ quello che vedi ora ;) ]\n
+• Aggiunta la nuova sezione \"APP NON FUNZIONANTE?\" nelle Preferenze\n
+• Corretto un errore nella Notifica per il controllo volume della musica
+  </string>
+
+  <!-- MainActivity -->
+  <string name="in_app_desc_md">Quando lo schermo è spento, scorri sopra il sensore di prossimità per far apparire MotoDisplay</string>
+  <string name="in_app_desc_ls">Quando lo schermo è spento, scorri sopra il sensore di prossimità per far apparire la schermata di blocco</string>
+  <string name="drawer_invoke">Tocca l\'icona per ulteriori opzioni</string>
+  <string name="On">Acceso</string>
+  <string name="Off">Spento</string>
+  <string name="no_proximity_sensor">Questo dispositivo non dispone di un sensore di prossimità</string>
+  <string name="no_proximity_sensor_explanation">Questa app funziona leggendo i valori del sensore di prossimità. Questo dispositivo non dispone di questo sensore quindi questa app non funzionerà.</string>
+  <string name="not_an_official_motorola_app">Questo non è un software ufficiale di Motorola</string>
+  <string name="not_an_official_motorola_app_explanation">Questa applicazione non è fatta da Motorola. L\'uso di questa applicazione può causare un utilizzo eccessivo della batteria.\n\nPotrebbe essere necessaria l\'autorizzazione Amministra dispositivo.</string>
+
+  <!-- Preferences -->
+  <string name="start_at_boot">Avviare al boot</string>
+  <string name="label_extras">EXTRA</string>
+  <string name="music_vol_notif">Notifica per il Controllo\nvolume della musica</string>
+  <string name="app_not_working">APP NON FUNZIONANTE?\n(solo per dispositivi con moto display)</string>
+  <string name="set_sensitivity">Imposta la sensibilità. Aumenta se scorrendo sopra lo schermo non si attiva Moto Display.</string>
+  <string name="force_notification">Notifica forzata. \nNon consigliato. Fornisce una strana opzione su Moto Display. Utilizzare solo se l\'impostazione della sensibilità massima non funziona.</string>
+  <string name="reset_app_not_working">Ripristina \"APP NON FUNZIONANTE\"</string>
+  <string name="music_volume_notif_md">Una nuova notifica con controlli del volume della musica apparirà in Moto Display quando lo schermo è spento</string>
+  <string name="music_volume_notif_ls">Una nuova notifica con controlli del volume della musica apparirà nella schermata di blocco</string>
+  <string name="vol_up">Alza il volume</string>
+  <string name="vol_dn">Abbassa il volume</string>
+  <string name="vibrate">Vibrazione</string>
+  <string name="disable_in_landscape">Disattiva in modalità orizzontale</string>
+  <string name="show_me_how">MOSTRAMI COME</string>
+
+  <!-- RequestDeviceAdmin -->
+  <string name="smart_unlock_not_work">Necessaria autorizzazione Amministra dispositivo.\nLo Sblocco intelligente non funzionerà!</string>
+  <string name="smart_unlock_not_work_explanation">Per spegnere lo schermo è necessaria l\'autorizzazione Amministra dispositivo. Si prega di consentire tale autorizzazione. E\' necessario solo la prima volta.\n\n
+A causa di limitazioni di Android, se attivi questa opzione le funzionalità di Sblocco intelligente (sensore di impronte digitali COMPRESO) non funzioneranno.</string>
+  <string name="device_admin_explanation">MotoDisplay Handwave sta richiedendo questa autorizzazione per disattivare lo schermo. Per disinstallare l\'app devi prima rimuovere l\'autorizzazione di amministratore dispositivo.</string>
+
+  <!-- DeviceAdminClass -->
+  <string name="turned_off">MotoDisplay Handwave non spegnerà lo schermo</string>
+
+  <!-- DeviceDetails -->
+  <string name="enabled">Attivato</string>
+  <string name="disbled">Disattivato</string>
+  <string name="label_device">DISPOSITIVO</string>
+  <string name="model">Modello:</string>
+  <string name="manufacturer">Produttore:</string>
+  <string name="moto_display_supported">Moto Display: supportato</string>
+  <string name="moto_display_unsupported">Moto Display: non supportato</string>
+  <string name="label_hardware">HARDWARE</string>
+  <string name="proximity">Prossimità: </string>
+  <string name="power">\nEnergia utilizzata dall\'ultimo boot:\n</string>
+  <string name="label_inapp">APP</string>
+  <string name="service_state_running">Stato del servizio: IN ESECUZIONE</string>
+  <string name="service_state_not_running">Stato del servizio: NON IN ESECUZIONE</string>
+  <string name="music_vol_notif_enabled">Notifica volume musica: Attiva</string>
+  <string name="music_vol_notif_disabled">Notifica volume musica: Disattiva</string>
+  <string name="wave_n_hold_for_screen_off_enabled">Scorri-e-ferma per spegnere schermo: Attivo</string>
+  <string name="wave_n_hold_for_screen_off_disabled">Scorri-e-ferma per spegnere schermo: Disattivo</string>
+
+  <!-- WaveAndHoldTutorial -->
+  <string name="wave_n_hold_for_screen_off">Scorri-e-ferma per spegnere schermo</string>
+  <string name="line_1">Scorri sopra il sensore di prossimità</string>
+  <string name="line_2">Riporta la tua mano sul sensore</string>
+  <string name="line_3">Mantieni la mano sul sensore di prossimità fino allo spegnimento dello schermo</string>
+  <string name="line_4">Il gesto deve essere eseguito in rapida successione</string>
+  <string name="line_5">Una vibrazione continua confermerà l\'azione</string>
+
+  <!-- Miscellaneous -->
+  <string name="OK">@android:string/ok</string>
+  <string name="CLOSE">CHIUDI</string>
+  <string name="CANCEL">@android:string/cancel</string>
+  <string name="sure">Certo</string>
+  <string name="later">Più tardi</string>
+  <string name="never_show">Non mostrare mai</string>
+  <string name="rate_dialog_title">La tua opinione è importante</string>
+  <string name="rate_dialog_message">Se questa app ti ha aiutato, per favore fai una valutazione e/o una recensione.</string>
+  <string name="widget_activated">Widget attivato!</string>
+  <string name="wave_n_hold_activated">Scorri-e-ferma attivato!</string>
+
+  <!-- Compatibility mode messages -->
+  <string name="compatibility_mode_label">Modalità compatibile ATTIVA</string>
+
+  <string name="not_an_eligible_device">Non è un dispositivo idoneo! Modalità compatibile ATTIVA</string>
+  <string name="ineligible_device_explanation">Questa applicazione si basa su una funzionalità integrata - Moto Display - disponibile solo in alcuni modelli di dispositivi Motorola.\n\n
+
+Nella modalità compatibile, verrà attivato lo schermo di blocco.\n
+Sto lavorando ad una nuova app per tutti i dispositivi con funzionalità più interessanti! Quando verrà pubblicata, la Modalità Compatibile di questa app sarà obsoleta.
+  </string>
+
+  <string name="compatibility_mode_description">
+Il tuo dispositivo non dispone della funzionalità Moto Display fornita da Motorola in alcuni modelli. Questa applicazione attiva Moto Display passando la mano sullo schermo.\n\n
+
+Poiché il tuo dispositivo non dispone di Moto Display, questa app attiverà il blocco schermo.\n\n
+
+Sto lavorando ad una nuova app per tutti i dispositivi con funzionalità più interessanti! Quando verrà pubblicata, la Modalità Compatibile di questa app sarà obsoleta.
+  </string>
+
+  <!-- About -->
+  <string name="made_with_android_studio">Realizzato con Android Studio</string>
+  <string name="mdh_version_label">MotoDisplay handwave: \nVersione 3.1.1</string>
+  <string name="mdh_disclaimer">Moto Display è di proprietà esclusiva di Motorola</string>
+
+  <!-- Other apps -->
+  <string name="instamean">Systemwide online dictionary</string>
+  <string name="pickRingStop">Alza il telefono per smettere di squillare</string>
+  <string name="opcode8085">Convertire programmi 8085 in codice esadecimale</string>
+  <string name="more_coming_soon">Altre tra breve...</string>
+
+</resources>
