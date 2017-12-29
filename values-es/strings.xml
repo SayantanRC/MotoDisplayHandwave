@@ -1,0 +1,155 @@
+<resources>
+    <!-- Translation by Jose_Varela. -->
+
+    <!-- Nombre del App -->
+    <string name="app_name">MotoDisplay Handwave</string>
+    <string name="version">Versión 3.1.1</string>
+
+    <!-- Navegación -->
+    <string name="preferences">Preferencias</string>
+    <string name="about">Acerca De</string>
+    <string name="changelog">Lista de Cambios</string>
+    <string name="device_info">Información del Dispositivo</string>
+    <string name="other_apps">Otras Aplicaciones</string>
+    <string name="rate">Califica esta App</string>
+
+    <!-- Atajo para los de Nougat -->
+    <string name="disable_everything_label">Desactivar Todo</string>
+    <string name="everything_disabled_confirmation">Todas las funciones y servicios de la app han sido desactivadas.</string>
+
+    <!--Changelog-->
+    <!-- Don't really need another \n at the end of the version changelog. it makes a huge space. -->
+    <string name="version_3.1.1">Versión 3.1.1</string>
+    <string name="version_3.1.1_content">
+        • Un pequeño cambio para mostrar el Admin del dispositivo. El permiso es requerido al abrir la app por la primera vez.\n
+        • El archivo \"strings.xml\" está disponible en Github para cualquiera que deseé traducir esta app. El link está em la descripción de la app en la Play Store.\n
+        • Actualizado la lista de \"Otras Aplicaciones\"
+    </string>
+    <string name="version_3.1">Version 3.1</string>
+    <string name="version_3.1_content">
+        • Un pequeño cambio para mostrar el Admin del dispositivo. El permiso es requerido para el bloqueo de pantalla dentro de "Agita-y-Espera para apagar pantalla".\n
+        • Esta app ahora no funcionará en dispositivos que no tengan un sensor de proximidad.\n
+        • La Notificación de Control de Música es ahora un servicio completamente diferente para evitar posibles errores.\n
+        • Un nuevo widget para apagar la pantalla.
+    </string>
+    <string name="version_3.0">Versión 3.0</string>
+    <string name="version_3.0_content">
+        • Añadida la función (que muchos pidieron) de detectar el modo Horizontal en el modo de "Agita-y-Espera para apagar pantalla".\n
+        • Modo de Compatibilidad para dispositivos inelegibles.\n
+        • La Lista de Cambios ahora muestra la historia de todas las versiones.\n
+        • Un cambio de icono para la "Notificación de Control de Volumen de Música".\n
+        • Añadido la sección de \'Otras Aplicaciones\' y la opcion para calificar la app.\n
+        • Renovación de la interfaz. Se agregó también el menu, y el icono circular de la app.\n
+        • Compatibilidad con Android Nougat. Nuevo atajo para desactivar todas las funciones.
+    </string>
+    <string name="version_2.0">Version 2.0</string>
+    <string name="version_2.0_content">
+        • Añadido la lista de cambios [ Lo que estás viendo ahora ;) ]\n
+        • Añadido una nueva sección llamada "¿NO FUNCIONA LA APP?" en Preferencias.\n
+        • Se arregló un bug en la notificación de Control del Volumen de Música.
+    </string>
+
+    <!--MainActivity (Actividades Principales)-->
+    <string name="in_app_desc_md">Cuando la pantalla está apagada, simplemente agite su mano sobre el sensor de proximidad para abrir MotoDisplay.</string>
+    <string name="in_app_desc_ls">Cuando la pantalla está apagada, simplemente agite su mano sobre el sensor de proximidad para abrir la Pantalla de Bloqueo.</string>
+    <string name="drawer_invoke">Presiona en el icono para más opciones</string>
+    <!-- Should i do the complete (Encendido) or that short term (Enc) ? Actually, the short one looks better, i'll keep it like that.--> 
+    <string name="On">Enc</string>
+    <string name="Off">Apa</string>
+    <string name="no_proximity_sensor">Este dispositivo no tiene un sensor de proximidad</string>
+    <string name="no_proximity_sensor_explanation">Esta aplicación funciona leyendo los valores del sensor de proximidad. Este dispositivo no tiene este sensor. Por lo tanto, esta aplicación no funcionará.</string>
+    <string name="not_an_official_motorola_app">Esto no es software oficial de Motorola</string>
+    <string name="not_an_official_motorola_app_explanation">Esta aplicación no fue hecha por Motorola. El uso de esta aplicación puede causar un exceso de drenaje de la batería.\n\nEl permiso del administrador del dispositivo puede ser requerido.</string>
+    <!--Preferences-->
+    <string name="start_at_boot">Iniciar al encender</string>
+    <string name="label_extras">EXTRAS</string>
+    <string name="music_vol_notif">Notificación de\nControl de Volumen de Música</string>
+    <string name="app_not_working">¿NO FUNCIONA LA APP?\n(Solo para dispositivos con MotoDisplay)</string>
+    <string name="set_sensitivity">Ajustar sensibilidad. Incremente la cantidad si al mover la mano no activa el Moto Display.</string>
+    <string name="force_notification">Forzar notificación.\nNo es recomendado. Da una opción rara en el Moto Display. Úselo solamente si la opción maxima de sensibilidad no funciona.</string>
+    <string name="reset_app_not_working">Reiniciar "¿NO FUNCIONA LA APP?"</string>
+    <string name="music_volume_notif_md">Una nueva notificación con los controles de volumen de música aparecerán en el Moto Display cuando la pantalla esté apagada</string>
+    <string name="music_volume_notif_ls">Una nueva notificación con los controles de volumen de música aparecerán en la pantalla de bloqueo</string>
+    <string name="vol_up">Aumentar volumen</string>
+    <string name="vol_dn">Bajar volumen</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="disable_in_landscape">Desactivar en modo horizontal</string>
+    <string name="show_me_how">MUESTRAME CÓMO</string>
+
+    <!--RequestDeviceAdmin-->
+    <string name="smart_unlock_not_work">Permiso del administrador del dispositivo requerido.\n¡Smart unlock no funcionará!</string>
+    <string name="smart_unlock_not_work_explanation">El permiso del administrador del dispositivo es requerido para apagar la pantalla. Por favor permita ese permiso. Esto solo es requerido una vez.\n\n
+        Debido a las limitaciones de Android, cuando esta opción sea habilitada, unas funciones de Smart Unlock (INCLUYENDO EL SENSOR DE HUELLAS) no funcionarán.</string>
+    <string name="device_admin_explanation">MotoDisplay Handwave está pidiendo este permiso para apagar la pantalla. Para desintalar la app, deshabilite el permiso de Administrador de Dispositivo de la app.</string>
+
+    <!--DeviceAdminClass-->
+    <string name="turned_off">MotoDisplay Handwave no apagará la pantalla</string>
+
+    <!--DeviceDetails-->
+    <string name="enabled">Habilitado</string>
+    <string name="disbled">Deshabilitado</string>
+    <string name="label_device">DISPOSITIVO</string>
+    <string name="model">Modelo:</string>
+    <string name="manufacturer">Fabricante:</string>
+    <string name="moto_display_supported">Moto Display: Soportado</string>
+    <string name="moto_display_unsupported">Moto Display: No soportado</string>
+    <string name="label_hardware">HARDWARE</string>
+    <string name="proximity">Proximidad: </string>
+    <string name="power">\nEnergia usada desde el ultimo inicio:\n</string>
+    <string name="label_inapp">EN-APP</string>
+    <string name="service_state_running">Estado del Servicio: CORRIENDO</string>
+    <string name="service_state_not_running">Estado del Servicio: NO CORRIENDO</string>
+    <string name="music_vol_notif_enabled">Notificación de Vol. Música: Habilitado</string>
+    <string name="music_vol_notif_disabled">Notificación de Vol. Música: Deshabilitado</string>
+    <string name="wave_n_hold_for_screen_off_enabled">Agita-y-Espera para apagar pantalla: Habilitado</string>
+    <string name="wave_n_hold_for_screen_off_disabled">Agita-y-Espera para apagar pantalla: Deshabilitado</string>
+
+    <!--WaveAndHoldTutorial-->
+    <string name="wave_n_hold_for_screen_off">Wave-n-hold for screen off</string>
+    <string name="line_1">Wave over the proximity sensor</string>
+    <string name="line_2">Bring your hand back on it</string>
+    <string name="line_3">Keep your hand placed the proximity sensor till the screen turns off</string>
+    <string name="line_4">The gesture should be performed in quick succession</string>
+    <string name="line_5">A continuous vibration will confirm the action</string>
+
+    <!--Miscellaneous-->
+    <string name="OK">@android:string/ok</string>
+    <string name="CLOSE">CERRAR</string>
+    <string name="CANCEL">@android:string/cancel</string>
+    <string name="sure">Claro</string>
+    <string name="later">Después</string>
+    <string name="never_show">Nunca mostrar</string>
+    <string name="rate_dialog_title">Tu opinión es importante</string>
+    <string name="rate_dialog_message">Si esta app te ha ayudado, por favor considera darle un rating y/o una reseña.</string>
+    <string name="widget_activated">¡Widget activado!</string>
+    <string name="wave_n_hold_activated">¡Agita-y-Espera activado!</string>
+
+    <!--Compatibility mode messages-->
+    <string name="compatibility_mode_label">Modo de Compatibilidad ENC</string>
+
+    <string name="not_an_eligible_device">¡Este no es un dispositivo elegible! Se activó el modo de compatibilidad.</string>
+    <string name="ineligible_device_explanation">Esta aplicación usa una función - Moto Display - que solo está disponible en unos modelos de dispositivos Motorola.\n\n
+
+        En el modo de compatibilidad, la pantalla de bloque será activada con un gesto de mano.\n
+        ¡Una nueva app está siendo elaborada para todos los dispositivos con mas funciones! Cuando esté disponible, el modo de compatibilidad en está aplicación quedará obsoleto.
+    </string>
+    <string name="compatibility_mode_description">
+        Tu dispositivo no tiene una función llamado Moto Display que proviene en unos modelos de Motorola. Esta app activa Moto Display con un gesto de mano encima de la pantalla.\n\n
+
+        Como su dispositivo no tiene Moto Display, esta app activará en alternativa la pantalla de bloqueo.\n\n
+
+        ¡Una nueva app está siendo elaborada para todos los dispositivos con mas funciones! Cuando esté disponible, el modo de compatibilidad en está aplicación quedará obsoleto.
+    </string>
+
+    <!--About-->
+    <string name="made_with_android_studio">Hecho con Android Studio</string>
+    <string name="mdh_version_label">MotoDisplay handwave:\nVersión 3.1.1</string>
+    <string name="mdh_disclaimer">Moto Display es propiedad exclusiva de Motorola</string>
+
+    <!--Other apps-->
+    <string name="instamean">Diccionario en línea de Sistema</string>
+    <string name="pickRingStop">Toma tu telefono para dejar de sonar</string>
+    <string name="opcode8085">Convierte programas 8085 a código Hexadecimal</string>
+    <string name="more_coming_soon">Más muy pronto...</string>
+
+</resources>
