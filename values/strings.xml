@@ -1,8 +1,9 @@
 <resources>
 
+
     <!--App name-->
     <string name="app_name">MotoDisplay Handwave</string>
-    <string name="version">Version 3.1.1</string>
+    <string name="version">Version 4.1</string>
 
     <!--Navigation drawer-->
     <string name="preferences">Preferences</string>
@@ -11,12 +12,33 @@
     <string name="device_info">Device info</string>
     <string name="other_apps">Other apps</string>
     <string name="rate">Rate this app</string>
+    <string name="about_this_app">About this app</string>
+    <string name="special_thanks">Special thanks</string>
+    <string name="email">Contact over email</string>
+    <string name="other_options">Other options</string>
 
     <!--Android Nougat app shortcut-->
     <string name="disable_everything_label">Disable everything</string>
     <string name="everything_disabled_confirmation">All features and services of the app have been disabled.</string>
 
     <!--Changelog-->
+    <string name="version_4.1">Version 4.1</string>
+    <string name="version_4.1_content">
+        • UI changes\n
+        • Integrations moved inside navigation drawer\n
+        • A banner ad has been added. THIS CAN BE DEACTIVATED ABSOLUTELY FREE.\n
+        • FAQ updated\n
+    </string>
+    <string name="version_4.0">Version 4.0</string>
+    <string name="version_4.0_content">
+        • UI changes\n
+        • Quick settings tile toggle (Android 7+)\n
+        • Android Oreo related behavioral changes\n
+        • \'Disable in Landscape mode\' for \'Wave-n-hold for screen off\' now works as intended. \n
+        • Probable fix for Moto E4 flashing display\n
+        • Brand new Integrations panel!\n
+        • FAQ added\n
+    </string>
     <string name="version_3.1.1">Version 3.1.1</string>
     <string name="version_3.1.1_content">
         • Small change to show device admin. permission is required when opening app for the first time.\n
@@ -51,25 +73,41 @@
     <string name="in_app_desc_md">When screen is off, simply wave over the proximity sensor to bring up MotoDisplay</string>
     <string name="in_app_desc_ls">When screen is off, simply wave over the proximity sensor to bring up lock screen</string>
     <string name="drawer_invoke">Tap the icon for more options</string>
+    <string name="remove_notif">Remove \"App is running\" notifications</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="androidONotifHide">Android Oreo needs to show a user facing notification for services. Please turn off the toggle for\n\"Services (Deactivate this)\"
+    </string>
+    <string name="proceed">Proceed</string>
     <string name="On">On</string>
     <string name="Off">Off</string>
     <string name="no_proximity_sensor">This device doesn\'t have a proximity sensor</string>
     <string name="no_proximity_sensor_explanation">This app works by reading values from proximity sensor. This device doesn\'t have this sensor. Hence this app will not work.</string>
     <string name="not_an_official_motorola_app">This is not an official Motorola software</string>
     <string name="not_an_official_motorola_app_explanation">This application is not made by Motorola. Using this application may cause excess drain of battery.\n\nDevice Administrator permission may be required.</string>
+    <string name="sure_to_mail">Are you sure you want to send an email?</string>
+    <string name="sure_to_mail_exp">Please only contact if you are sure of a bug. To avoid unnecessary emails, please read the FAQ first.\n
+        Your email address will not be used for anything else other than if it is necessary to mail back.</string>
+    <string name="select_mail">Select mailing app, example Gmail.</string>
+
+    <string name="i_dont_wanna_support">I don\'t want to support</string>
+    <string name="let_it_be">Let it be</string>
 
     <!--Preferences-->
     <string name="start_at_boot">Start at boot</string>
+    <string name="change_notifications">Manage app notifications</string>
+    <string name="change_notif_desc">Disable \"Services\" channel and enable \"WakeUp\" channel.</string>
     <string name="label_extras">EXTRAS</string>
     <string name="music_vol_notif">Music Volume\nControl notification</string>
     <string name="app_not_working">APP NOT WORKING?\n(only for devices with moto display)</string>
     <string name="set_sensitivity">Set sensitivity. Increase if waving over the screen does not activate Moto Display.</string>
-    <string name="force_notification">Force notification.\nNot recommended. Gives an odd option on Moto Display. Use only if setting maximum sensitivity doesn\'t work.</string>
+    <string name="force_notification">Force notification</string>
+    <string name="force_notification_summary">Not recommended. Gives an odd option on Moto Display. Use only if setting maximum sensitivity doesn\'t work.</string>
     <string name="reset_app_not_working">Reset "APP NOT WORKING"</string>
     <string name="music_volume_notif_md">A new notification with music volume controls will appear in Moto Display when screen is off</string>
     <string name="music_volume_notif_ls">A new notification with music volume controls will appear in lock screen</string>
     <string name="vol_up">Volume up</string>
     <string name="vol_dn">Volume down</string>
+    <string name="BGvideoIntegration">BG video integration</string>
     <string name="vibrate">Vibrate</string>
     <string name="disable_in_landscape">Disable in landscape mode</string>
     <string name="show_me_how">SHOW ME HOW</string>
@@ -120,7 +158,12 @@
     <string name="rate_dialog_title">Your opinion is important</string>
     <string name="rate_dialog_message">If this app has helped you, please consider giving a rating and/or a review.</string>
     <string name="widget_activated">Widget activated!</string>
+    <string name="device_admin_denied">Device admin. permission denied!</string>
     <string name="wave_n_hold_activated">Wave-n-hold activated!</string>
+
+    <string name="copied_app">This app has been copied and is fake.</string>
+    <string name="copied_app_exp">Please get the original app from BaltiApps by clicking the Install button.</string>
+    <string name="close">Close</string>
 
     <!--Compatibility mode messages-->
     <string name="compatibility_mode_label">Compatibility mode ON</string>
@@ -140,15 +183,90 @@
         A new app is being worked upon for all devices with more exciting features! Once that is published, Compatibility Mode in this app will be deprecated.
     </string>
 
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
     <!--About-->
     <string name="made_with_android_studio">Made with Android Studio</string>
-    <string name="mdh_version_label">MotoDisplay handwave:\nVersion 3.1.1</string>
+    <string name="mdh_version_label">MotoDisplay handwave:\nVersion 4.0</string>
     <string name="mdh_disclaimer">Moto Display is the sole property of Motorola</string>
 
     <!--Other apps-->
     <string name="instamean">Systemwide online dictionary</string>
     <string name="pickRingStop">Pick up your phone to stop ringing</string>
     <string name="opcode8085">Convert 8085 programs to hex code</string>
+    <string name="bg_video">Play videos in background</string>
     <string name="more_coming_soon">More coming soon...</string>
+
+    <!--Special thanks-->
+    <string name="contributions">\n
+        @krapk
+    </string>
+
+    <!--Tabs-->
+    <string name="home">Home</string>
+    <string name="integrations">Integrations</string>
+
+    <!--faq.xml-->
+    <string name="FAQ">FAQ</string>
+    <string name="q1.1">This app doesn\'t activate Moto Display\nOR\nThere is a constant Pad lock sign in Moto Display.</string>
+    <string name="a1.1">There is no proper fix to both these issues, and occurs sporadically across devices. Make sure:\n
+        • Your Moto Display is always updated
+    </string>
+    <string name="a1.2">Check Moto Diplay on Google Play Store</string>
+    <string name="a1.3">• You have not kept the Moto Display off or kept the \"Keep screen off\" option turned on.\n
+    • Moto Display for your device is bugged (sorry Moto X1 users). Wait for Motorola to release a fix :(\n
+        • For ANDROID OREO check that you have not disabled the \"WakeUp\" channel notifications. To check, click the hamburger menu:
+    </string>
+    <string name="a1.4">Click \"Preferences\" -> \"Manage app notifications\" and enable toggle for\n\"WakeUp (Do not deactivate)\"\n\n
+    Recommended settings in Moto Display:
+    </string>
+    <string name="q2">Moto Display keeps flashing on my device.</string>
+    <string name="a2">This has been seen on Moto E4 series. This can be a problem in the Moto Display app itself or the proximity sensor. This version should fix the issue.</string>
+    <string name="q3">Why do I get the \"MotoDisplay Handwave is running\" notification?</string>
+    <string name="a3">In Android Oreo, this notification is necessary to make the user aware that an app is running in background which can potentially decrease battery life of the device. However this app doesn\'t use a lot of your resources. Read the next answer for details.</string>
+    <string name="q4">Does this app consume a lot of battery?</string>
+    <string name="a4">This app consumes minimum (very close to zero) power when the screen is off in MOTOROLA DEVICES WITH MOTO DISPLAY TURNED ON.\n
+    This is because Moto Display actually keeps the proximity sensor turned on always, but doesn\'t use this wave gesture.\n
+        For non-moto devices, this app may drain some battery as the proximity sensor is always on, especially if \"Wave-n-hold for screen off\" feature is on. Please read the next answer.
+    </string>
+    <string name="q5">How much power does this app exactly consume?</string>
+    <string name="a5.1">You can check the battery consumption by clicking the hamburger menu</string>
+    <string name="a5.2">Click \"Device info\" and check \"Power used since last boot\". You will find that not a lot of power is drained by the app, often less than 1mAh.</string>
+    <string name="q6">@string/whatAreIntegrations</string>
+    <string name="a6">@string/integrationsAnswer</string>
+    <string name="q7">Why was ads added? I liked the app as free!</string>
+    <string name="a7">Ads have been added to support further development of the app. Also the ads can be disabled easily, without needing to buy anything! Keeping the ads on serves as an incentive as the app will continue receiving exciting features via Integrations.</string>
+    <string name="ql">There is some other problem</string>
+    <string name="al.1">Click the hamburger menu</string>
+    <string name="al.2">And select \"Contact over email\". Please provide details about your exact problem, device and model number.</string>
+
+
+    <!--IntegrationsPanel-->
+    <string name="whatAreIntegrations">What are Integrations?</string>
+    <string name="integrationsAnswer">Integrations are like add-ons. These are apps which provide extra functionality to this app, or the other (integrating) app or both the apps.\n
+    To use an integration, download the app from Google Play Store, open the app and set it up (grant permission etc.) then return to this app and enable the available options.\n\n
+        More integrations will be added in future.
+    </string>
+    <string name="install">Install</string>
+    <string name="open">Open</string>
+    <string name="update">Update</string>
+    <string name="updateDesc">Please update this app!</string>
+    <string name="grant_perm">Grant perm.</string>
+    <string name="grant_permDesc">Please grant all permissions!</string>
+
+    <string name="pickRingStopActionDesc">Pick up phone to silence incoming calls</string>
+    <string name="enablePickupDetection">Enable pick up detection</string>
+    <string name="enableWaveToSilence">Enable wave to silence</string>
+
+    <string name="BGvideoActionDesc">Video player which can play in background!</string>
+    <string name="displayBgVideoMedia">Play pause button in \'Music Volume Control notification\'</string>
+    <string name="displayBgVideoMediaExplanation">A play/pause button to control playback of BG video will be shown when \'Music Volume Control notification\' option is enabled in MotoDisplay Handwave.</string>
+
+    <!--QuickToggle.java-->
+    <string name="mdh_turned_on">Turned ON</string>
+    <string name="mdh_turned_off">Turned OFF</string>
 
 </resources>
